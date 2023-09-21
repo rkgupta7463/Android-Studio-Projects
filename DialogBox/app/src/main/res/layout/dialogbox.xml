@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_200"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F60505"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ur name"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="text"
+            android:layout_marginTop="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ur password"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_200"
+            android:layout_marginLeft="200dp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
